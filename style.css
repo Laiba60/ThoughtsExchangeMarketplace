@@ -13,7 +13,7 @@ html, body {
   .main {
     height: 100%;
     width: 100%;
-    background-color: #f4f6f8;
+    background-color: white;
     min-height: 100vh;
     margin:0;
   }
@@ -23,19 +23,19 @@ html, body {
     margin: 0 auto;
     width: 90%;
     
-    background-color: #ffdde1;
+    background-color: white;
     padding: 20px;
-   
+   height:30%;
   }
   
  
   header {
-    margin:0;
+    margin:0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0px 40px rgba(0, 0, 0, 0.3);
- 
+ height:30%;
    
 
   }
@@ -101,7 +101,7 @@ html, body {
   }
   
   .visual button {
-    padding: 10px 40px;
+    padding: 20px 60px;
     color: white;
     background-color: blue;
     border: 1px solid blue;
