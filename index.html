@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thoughts Exchange</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="main">
-    <div class="wrapper">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thoughts Exchange</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-      <!-- Header Section -->
-      <header>
-        <p>Thoughts Exchange</p>
-        <a href="#">Explore ideas</a>
-      </header>
+  <body>
+    <div class="main">
+      <div class="wrapper">
+        <header>
+          <p>Thoughts Exchange</p>
+          <a href="#">Explore ideas</a>
+        </header>
 
-      <!-- Content Section -->
-      <section class="sectiontwo">
-        <h1>Share Innovative Ideas</h1>
-        <p>Discover a place where your thoughts can shape the future. Share ideas, collaborate, and inspire the world with your creativity and passion.</p>
-      </section>
+        <section class="sectiontwo">
+          <h1>Share Innovative Ideas</h1>
+          <p>
+            Discover a place where your thoughts can shape the future. Share
+            ideas, collaborate, and inspire the world with your creativity and
+            passion.
+          </p>
+        </section>
 
-      <!-- Visual Section -->
-      <div class="visual">
-        <div class="visual-left">
-          <button>Explore Ideas</button>
-        </div>
-        <div class="visual-right">
-          <img src="images/rkaleid07-1536x1371.jpg" alt="Ideas Visual">
+        <div class="visual">
+          <div class="visual-left">
+            <button id="exploreBtn">Explore Ideas</button>
+          </div>
+          <div class="visual-right">
+            <img src="images/rkaleid07-1536x1371.jpg" alt="Ideas Visual" />
+          </div>
         </div>
       </div>
-
     </div>
-  </div>
-</body>
+    <script>
+      document.getElementById("exploreBtn").onclick = function () {
+        window.location.href = "page.html";
+      };
+    </script>
+  </body>
 </html>
